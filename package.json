@@ -1,10 +1,11 @@
 {
-  "name": "kr",
+  "name": "@ai6yp/kr",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "bin": {
-    "kr": "bin/download.js"
+    "kr-download": "bin/download.js",
+    "kr-index": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
