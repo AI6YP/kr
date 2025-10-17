@@ -1,0 +1,4 @@
+node_modules/
+pdf/
+text/
+package-lock.json
