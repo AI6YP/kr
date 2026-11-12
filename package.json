@@ -5,7 +5,9 @@
   "main": "index.js",
   "bin": {
     "kr-download": "bin/download.js",
-    "kr-index": "bin/index.js"
+    "kr-discovery": "bin/discovery.js",
+    "kr-txt": "bin/txt.js",
+    "kr-md": "bin/md.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/AI6YP/kr/issues"
   },
-  "homepage": "https://github.com/AI6YP/kr#readme"
+  "homepage": "https://github.com/AI6YP/kr#readme",
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^6.5.438"
+  }
 }
